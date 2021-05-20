@@ -293,11 +293,12 @@ section {
 .best-estate-state{
   color: white;
   position: absolute;
-  top: 8px;
-  left: -30px;
+  top: 9px;
+  left: -38px;
   transform: rotate(-45deg);
   background: crimson;
   padding: 5px 35px;
+  font-size: 13px;
 }
 .best-estate-img-area{
   position: relative;

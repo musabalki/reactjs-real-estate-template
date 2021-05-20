@@ -1,19 +1,19 @@
-import RealEstateList from "./RealEstateList"
+import FlatList from "./FlatList"
 import Banner from "./Banner"
-import CarouselFeatured from "./CarouselFeatured"
 import React from "react"
-import Teams from "./Teams"
+import TeamList from "./TeamList"
 import References from "./References"
 import Subscribe from "./Subscribe"
+import BestFlatList from "./BestFlatList"
 
 const Home=()=>{
     return (
         <React.Fragment>
             <Banner/>
-            <RealEstateList/>
-            <CarouselFeatured/>
+            <FlatList/>
+            <BestFlatList/>
             <Subscribe/>
-            <Teams/>
+            <TeamList/>
             <References/>
         </React.Fragment>
     )

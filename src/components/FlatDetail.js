@@ -1,6 +1,6 @@
 import React from "react";
 
-const RealEstateDetail=()=>{
+const FlatDetail=()=>{
     return (
         <div className="container mt-5 mb-5">
            <div className="row">
@@ -12,4 +12,4 @@ const RealEstateDetail=()=>{
     )
 }
 
-export default RealEstateDetail;
+export default FlatDetail

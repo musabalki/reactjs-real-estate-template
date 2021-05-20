@@ -1,5 +1,5 @@
 import './App.css';
-import RealEstateDetail from "./components/RealEstateDetail"
+import FlatDetail from "./components/FlatDetail"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import Home from "./components/Home"
@@ -14,7 +14,7 @@ function App() {
         <Header/>
         <Route path="/" exact component={Home}></Route>
         <Route path="/contact"  component={Contact}></Route>
-        <Route path="/realestate/:id"  component={RealEstateDetail}></Route>
+        <Route path="/flat/:id"  component={FlatDetail}></Route>
         <Footer />
       </div>
     </Router>
