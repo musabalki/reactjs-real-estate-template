@@ -4,6 +4,8 @@ import Header from "./components/Header"
 import Footer from "./components/Footer"
 import Home from "./components/Home"
 import Contact from "./components/Contact"
+import About from "./components/About"
+import Blog from "./components/Blog"
 import {BrowserRouter as Router,Route} from "react-router-dom";
  
 
@@ -14,6 +16,8 @@ function App() {
         <Header/>
         <Route path="/" exact component={Home}></Route>
         <Route path="/contact"  component={Contact}></Route>
+        <Route path="/about"  component={About}></Route>
+        <Route path="/blog"  component={Blog}></Route>
         <Route path="/flat/:id"  component={FlatDetail}></Route>
         <Footer />
       </div>
