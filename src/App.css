@@ -463,7 +463,34 @@ section {
   padding-bottom: 70px;
 }
 
-
+/* Blog Start */
+.blog{
+  background: #82858c1a;
+}
+.blog-content{
+  padding: 15px;
+  background: #fff;
+  
+  font-size: 15px;
+}
+.blog-title{
+  font-size: 18px;
+  font-weight: bold;
+  color: #364465;
+}
+.blog-text{
+  font-size: 15px;
+}
+.blog-info{
+  display: flex;
+}
+.blog-info-item{
+  font-size: 15px;
+}
+.blog-info-item:nth-child(1){
+  margin-right: 15px;
+}
+/* Blog End */
 
 
 
@@ -488,3 +515,4 @@ section {
   }
 }
 /* Media End */
+
