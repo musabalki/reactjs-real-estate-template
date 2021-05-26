@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom"
 const BestFlatItem = ({flatState}) => {
     return (
         <div className="best-estate">
@@ -7,8 +8,8 @@ const BestFlatItem = ({flatState}) => {
                     <div className={`best-estate-state ${flatState ==="For Rent" ? "bg-green" : "bg-red" }`}>{flatState}</div>
                 </div>
                 <div className="best-estate-content">
-                    <h4><a href="#">Lorem Ipsum</a></h4>
-                    <span><a href="#">Lorem Ipsum</a></span>
+                    <h4><Link to="/">Lorem Ipsum</Link></h4>
+                    <span><Link to="/">Lorem Ipsum</Link></span>
                 </div>
                 <div className="best-estate-features">
                     <div className="d-flex">
