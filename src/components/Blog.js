@@ -16,14 +16,15 @@ const Blog = () => {
             <div className="page-content">
                 <div className="container">
                     <div className="row">
-                        <BlogItem />
-                        <BlogItem />
-                        <BlogItem />
-                        <BlogItem />
-                        <BlogItem />
-                        <BlogItem />
-                        <BlogItem />
-                        <BlogItem /><BlogItem />
+                        <BlogItem title="Lorem ipsum dolor sit amet, consectetur adipiscing elit" />
+                        <BlogItem title="Lorem ipsum dolor sit amet, consectetur adipiscing elit" />
+                        <BlogItem title="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
+                        <BlogItem title="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
+                        <BlogItem title="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
+                        <BlogItem title="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
+                        <BlogItem title="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
+                        <BlogItem title="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
+                        <BlogItem title="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
                     </div>
                 </div>
             </div>
