@@ -1,5 +1,7 @@
 import Slider from "react-slick";
 import Title from "./Title"
+import ReferenceItem from "./ReferenceItem"
+
 const References = () => {
     const title = {
         text: "Lorem Ipsum",
@@ -40,27 +42,8 @@ const References = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <Slider {...settings}>
-                            <div className="reference">
-                                <img className="w-100" src="/img/team1.png" alt="team" />
-                            </div>
-                            <div className="reference">
-                                <img className="w-100" src="/img/team1.png" alt="team" />
-                            </div>
-                            <div className="reference">
-                                <img className="w-100" src="/img/team1.png" alt="team" />
-                            </div>
-                            <div className="reference">
-                                <img className="w-100" src="/img/team1.png" alt="team" />
-                            </div>
-                            <div className="reference">
-                                <img className="w-100" src="/img/team1.png" alt="team" />
-                            </div>
-                            <div className="reference">
-                                <img className="w-100" src="/img/team1.png" alt="team" />
-                            </div>
-                            <div className="reference">
-                                <img className="w-100" src="/img/team1.png" alt="team" />
-                            </div>
+                            <ReferenceItem />
+                            <ReferenceItem /><ReferenceItem /><ReferenceItem /><ReferenceItem /><ReferenceItem />       
                         </Slider>
                     </div>
                 </div>
