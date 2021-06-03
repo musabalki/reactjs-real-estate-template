@@ -43,7 +43,11 @@ const References = () => {
                     <div className="col-lg-12">
                         <Slider {...settings}>
                             <ReferenceItem />
-                            <ReferenceItem /><ReferenceItem /><ReferenceItem /><ReferenceItem /><ReferenceItem />       
+                            <ReferenceItem />
+                            <ReferenceItem />
+                            <ReferenceItem />
+                            <ReferenceItem />
+                            <ReferenceItem />       
                         </Slider>
                     </div>
                 </div>
