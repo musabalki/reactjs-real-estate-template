@@ -22,7 +22,11 @@ const BlogDetail = () => {
                     </div>
                 </div>
                 <div className="col-lg-4">
-                        SIDEBAR
+                        <div className="widget">1</div>
+	        <div className="widget">2</div>
+                        <div className="widget">3</div>
+	        <div className="widget">4</div>	
+	        <div className="widget">5</div>
                     </div>
             </div>
         </div>
