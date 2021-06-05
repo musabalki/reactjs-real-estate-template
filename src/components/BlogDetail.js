@@ -22,11 +22,32 @@ const BlogDetail = () => {
                     </div>
                 </div>
                 <div className="col-lg-4">
-                        <div className="widget">1</div>
-	        <div className="widget">2</div>
-                        <div className="widget">3</div>
-	        <div className="widget">4</div>	
-	        <div className="widget">5</div>
+                        <div className="widget">
+                            <p className="widget-title">Title</p>
+                            <div className="widget-content">
+
+                            </div>
+                        </div>
+                        <div className="widget">
+                            <p className="widget-title">Title</p>
+                            <div className="widget-content">
+                            </div>
+                        </div>
+                        <div className="widget">
+                            <p className="widget-title">Title</p>
+                            <div className="widget-content">
+                            </div>
+                        </div>
+                        <div className="widget">
+                            <p className="widget-title">Title</p>
+                            <div className="widget-content">
+                            </div>
+                        </div>	
+                        <div className="widget">
+                            <p className="widget-title">Title</p>
+                            <div className="widget-content">
+                            </div>
+                        </div>
                     </div>
             </div>
         </div>
