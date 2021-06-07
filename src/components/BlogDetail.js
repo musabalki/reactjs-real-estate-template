@@ -1,6 +1,6 @@
 const BlogDetail = () => {
     return (
-        <div className="container">
+        <div className="container mt-4 mb-4">
             <div className="row">
                 <div className="col-lg-8">
                     <div className="blog-detail">
@@ -22,10 +22,11 @@ const BlogDetail = () => {
                     </div>
                 </div>
                 <div className="col-lg-4">
+                    <div className="right-sidebar">
                         <div className="widget">
                             <p className="widget-title">Title</p>
                             <div className="widget-content">
-
+                                <input type="text" className="widget-search-inp" />
                             </div>
                         </div>
                         <div className="widget">
@@ -42,13 +43,14 @@ const BlogDetail = () => {
                             <p className="widget-title">Title</p>
                             <div className="widget-content">
                             </div>
-                        </div>	
+                        </div>
                         <div className="widget">
                             <p className="widget-title">Title</p>
                             <div className="widget-content">
                             </div>
                         </div>
                     </div>
+                </div>
             </div>
         </div>
     )
