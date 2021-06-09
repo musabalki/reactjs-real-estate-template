@@ -26,7 +26,7 @@ const BlogDetail = () => {
                         <div className="widget">
                             <p className="widget-title">Title</p>
                             <div className="widget-content">
-                                <input type="text" className="widget-search-inp" />
+                                <input type="text" className="widget-search-inp" placeholder="Search" />
                             </div>
                         </div>
                         <div className="widget">

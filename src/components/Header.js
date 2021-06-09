@@ -32,9 +32,9 @@ const Header = () => {
                                 <li className="nav-item">
                                     <Link className="nav-link" to="/category">Category <i className="fas fa-chevron-down"></i></Link>
                                     <ul className="sub-ul">
-                                        <li>item</li>
-                                        <li>item</li>
-                                        <li>item</li>
+                                        <li><Link to="#">item</Link></li>
+                                        <li><Link to="#">item</Link></li>
+                                        <li><Link to="#">item</Link></li>
                                     </ul>
                                 </li>
                                 <li className="nav-item">
