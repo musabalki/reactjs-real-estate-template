@@ -1,3 +1,5 @@
+import Sidebar from "./Sidebar";
+
 const BlogDetail = () => {
     return (
         <div className="container mt-4 mb-4">
@@ -21,36 +23,7 @@ const BlogDetail = () => {
                         </p>
                     </div>
                 </div>
-                <div className="col-lg-4">
-                    <div className="right-sidebar">
-                        <div className="widget">
-                            <p className="widget-title">Title</p>
-                            <div className="widget-content">
-                                <input type="text" className="widget-search-inp" placeholder="Search" />
-                            </div>
-                        </div>
-                        <div className="widget">
-                            <p className="widget-title">Title</p>
-                            <div className="widget-content">
-                            </div>
-                        </div>
-                        <div className="widget">
-                            <p className="widget-title">Title</p>
-                            <div className="widget-content">
-                            </div>
-                        </div>
-                        <div className="widget">
-                            <p className="widget-title">Title</p>
-                            <div className="widget-content">
-                            </div>
-                        </div>
-                        <div className="widget">
-                            <p className="widget-title">Title</p>
-                            <div className="widget-content">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <Sidebar/>
             </div>
         </div>
     )

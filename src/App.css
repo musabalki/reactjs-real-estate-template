@@ -669,3 +669,13 @@ section {
   padding: 8px 16px;
   border-radius: 5px;
 }
+.widget-search-result{
+  background: #eeeeee;
+  padding: 15px;
+  border: 1px solid #b6bac4;
+  border-radius: 5px;
+  margin-top: 9px;
+}
+.widget-search-result p{
+  margin: 0;
+}
