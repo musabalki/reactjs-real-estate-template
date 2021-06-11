@@ -52,6 +52,11 @@ const Sidebar = () => {
                     <div className="widget-content">
                     </div>
                 </div>
+<div className="widget">
+                    <p className="widget-title">Title</p>
+                    <div className="widget-content">
+                    </div>
+                </div>
             </div>
         </div>
     )
