@@ -1,35 +1,22 @@
-import { useEffect, useState } from "react"
 const Sidebar = () => {
-    const [search, setSearch] = useState();
-    const [find, setFind] = useState([]);
-    const [word, setWord] = useState("");
-    useEffect(() => {
-        setSearch(["test", "mb", "test1"])
-    }, [])
-    const findSearch = (e) => {
-        setWord(e.target.value)
-        const filteredCountries = search.filter(item => item.indexOf(e.target.value) > -1 ? item : null);
-        e.target.value.length === 0 ? setFind([]) : setFind(filteredCountries);
-    }
-
-    const handleKeyPress = (e) => {
-        if(e.charCode===13){
-            alert("aaa")
-        }
-    }
     return (
         <div className="col-lg-4">
             <div className="right-sidebar">
                 <div className="widget">
-                    <p className="widget-title">Title</p>
                     <div className="widget-content">
-                        <input onKeyPress={(e)=>handleKeyPress(e)} type="text" className="widget-search-inp" placeholder="Search" />
-                        <div className="widget-search-result">
-                            <p>Test 1</p>
-                            <p>Test 2</p>
-                            <p>Test 1</p>
-                            <p>Test 2</p>
-                        </div>
+                        <input type="text" className="widget-search-inp" placeholder="Search" />
+                    </div>
+                </div>
+                <div className="widget">
+                    <p className="widget-title">Category</p>
+                    <div className="widget-content">
+                        <ul className="category-ul">
+                            <li>Category 1</li>
+                            <li>Category 2</li>
+                            <li>Category 3</li>
+                            <li>Category 4</li>
+                            <li>Category 5</li>
+                        </ul>
                     </div>
                 </div>
                 <div className="widget">
@@ -48,11 +35,6 @@ const Sidebar = () => {
                     </div>
                 </div>
                 <div className="widget">
-                    <p className="widget-title">Title</p>
-                    <div className="widget-content">
-                    </div>
-                </div>
-<div className="widget">
                     <p className="widget-title">Title</p>
                     <div className="widget-content">
                     </div>
