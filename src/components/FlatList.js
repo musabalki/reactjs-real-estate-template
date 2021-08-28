@@ -12,12 +12,12 @@ const FlatList = () => {
             <div className="container">
                 <Title title={title.text} description={title.description} />
                 <div className="row">
-                    <FlatItem slug="1" />
-                    <FlatItem slug="2" />
-                    <FlatItem slug="2" />
-                    <FlatItem slug="4" />
-                    <FlatItem slug="5" />
-                    <FlatItem slug="6" />  
+                    <FlatItem slug="lorem-ipsum-1" />
+                    <FlatItem slug="lorem-ipsum-2" />
+                    <FlatItem slug="lorem-ipsum-3" />
+                    <FlatItem slug="lorem-ipsum-4" />
+                    <FlatItem slug="lorem-ipsum-5" />
+                    <FlatItem slug="lorem-ipsum-6" />  
                 </div>
             </div>
         </section>

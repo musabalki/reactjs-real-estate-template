@@ -6,8 +6,8 @@ const BlogDetail = () => {
             <div className="row">
                 <div className="col-lg-8">
                     <div className="blog-detail">
-                        <img className="w-100" src="https://stein.rifki.net/scienstein/wp-content/uploads/sites/4/2019/06/jakob-owens-518866-unsplash-1280x720.jpg" alt="test" />
-                        <span className="blog-detail-category">MOBILE</span>
+                        <img className="w-100" src="/img/product1.jpeg" alt="product" />
+                        <span className="blog-detail-category">LOREM</span>
                         <h1 className="blog-detail-title">Lorem ipsum dolor sit amet</h1>
                         <span className="blog-detail-date">03.06.2021</span>
                         <p className="blog-detail-content">

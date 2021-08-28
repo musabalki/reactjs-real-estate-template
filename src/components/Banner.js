@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react"
 import banner from "../banner.jpg"
-
+import { Link } from "react-router-dom";
 const Banner = () => {
     const [search, setSearch] = useState();
     const [find, setFind] = useState([]);
     const [word, setWord] = useState("");
     useEffect(() => {
-        setSearch(["test", "mb", "test1"])
+        setSearch(["a","b","test", "mb"])
     }, [])
     const findSearch = (e) => {
         setWord(e.target.value)
@@ -15,13 +15,13 @@ const Banner = () => {
     }
     const findResult = () => {
         if (find.length === 0 && word.length > 0) {
-            return <div className="find-search">Bulunamadı</div>
+            return <div className="find-search">Not Found</div>
         }
         if (find.length > 0) {
             return <div className="find-search">
                 {
                     find.map(item => {
-                        return <a key={item} href={item}>{item}</a>
+                        return <Link key={item} to="#">{item}</Link>
                     })
                 }
             </div>

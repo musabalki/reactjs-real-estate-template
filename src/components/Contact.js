@@ -27,7 +27,7 @@ const Contact = () => {
                                     <div className="contact-item">
                                         <i className="fas fa-map-marker-alt"></i>
                                         <h5>Address</h5>
-                                        <h6>info@info.com</h6>
+                                        <h6>Lorem Ipsum</h6>
                                     </div>
                                 </div>
                                 <div className="col-lg-4">
